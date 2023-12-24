@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "//k13t.github.io/Log_in/static/css/main.13d31ae5.css",
+    "main.js": "//k13t.github.io/Log_in/static/js/main.5299ed75.js",
+    "static/media/ytenenjpg.jpg": "//k13t.github.io/Log_in/static/media/ytenenjpg.2f1c1a06ab4a7fa4998b.jpg",
+    "index.html": "//k13t.github.io/Log_in/index.html",
+    "main.13d31ae5.css.map": "//k13t.github.io/Log_in/static/css/main.13d31ae5.css.map",
+    "main.5299ed75.js.map": "//k13t.github.io/Log_in/static/js/main.5299ed75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13d31ae5.css",
+    "static/js/main.5299ed75.js"
+  ]
+}
