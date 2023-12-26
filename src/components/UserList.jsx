@@ -42,7 +42,7 @@ const UserList = () => {
 
   return (
     <div>
-      <h2 style={{ fontSize: '2em', fontWeight: 'bold' }}>DANH SÁCH NGƯỜI DÙNG</h2>
+      <h2 style={{ fontSize: '2em', fontWeight: 'bold' }}>LIST USER</h2>
       <div style={{ marginBottom: '10px' }}>
         <button onClick={handleRefresh} disabled={loading}>
           {loading ? 'Đang làm mới...' : 'Làm mới'}
@@ -56,12 +56,13 @@ const UserList = () => {
         <thead>
           <tr>
             <th style={tableCellStyle}>STT</th>
-            <th style={tableCellStyle}>Tên người dùng</th>
-            <th style={tableCellStyle}>Giới tính</th>
-            <th style={tableCellStyle}>Chiều cao</th>
-            <th style={tableCellStyle}>Cân nặng</th>
-            <th style={tableCellStyle}>Lịch sử bệnh</th>
-            <th style={tableCellStyle}>Mật khẩu</th>
+            <th style={tableCellStyle}>HỌ TÊN</th>
+            <th style={tableCellStyle}>ID</th>
+            <th style={tableCellStyle}>GIƠI TINH</th>
+            <th style={tableCellStyle}>CÂN NẶNG</th>
+            <th style={tableCellStyle}>CHIỀU CAO</th>
+            <th style={tableCellStyle}>TUỔI</th>
+            <th style={tableCellStyle}>SĐT</th>
           </tr>
         </thead>
         <tbody>
@@ -69,10 +70,12 @@ const UserList = () => {
             <tr key={username}>
               <td style={tableCellStyle}>{index + 1}</td>
               <td style={tableCellStyle}>{userData[username].username}</td>
+              <td style={tableCellStyle}>{userData[username].password}</td>
               <td style={tableCellStyle}>{userData[username].gender}</td>
-              <td style={tableCellStyle}>{userData[username].height}</td>
               <td style={tableCellStyle}>{userData[username].weight}</td>
-              <td style={tableCellStyle}>{userData[username].medicalHistory}</td>
+              <td style={tableCellStyle}>{userData[username].height}</td>
+              <td style={tableCellStyle}>{userData[username].age}</td>
+              <td style={tableCellStyle}>{userData[username].phone}</td>
               <td style={tableCellStyle}>
                 {showPassword ? (
                   userData[username].password
