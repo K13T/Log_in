@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Log_in/static/css/main.aa644d8b.css",
-    "main.js": "/Log_in/static/js/main.56f5056c.js",
+    "main.js": "/Log_in/static/js/main.2050770d.js",
     "static/media/ytenenjpg.jpg": "/Log_in/static/media/ytenenjpg.2f1c1a06ab4a7fa4998b.jpg",
     "index.html": "/Log_in/index.html",
     "main.aa644d8b.css.map": "/Log_in/static/css/main.aa644d8b.css.map",
-    "main.56f5056c.js.map": "/Log_in/static/js/main.56f5056c.js.map"
+    "main.2050770d.js.map": "/Log_in/static/js/main.2050770d.js.map"
   },
   "entrypoints": [
     "static/css/main.aa644d8b.css",
-    "static/js/main.56f5056c.js"
+    "static/js/main.2050770d.js"
   ]
 }
