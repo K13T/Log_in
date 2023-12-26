@@ -7,14 +7,15 @@ import './UserLogin.css'; // Import file CSS tùy chỉnh
 const schema = {
   title: 'MỜI NHẬP TÀI KHOẢN',
   type: 'object',
-  required: ['username', 'password', 'gender', 'height', 'weight', 'medicalHistory'],
+  required: ['username', 'password', 'gender', 'height', 'weight', 'phone', 'age'],
   properties: {
-    username: { type: 'string', title: 'TÊN BỆNH NHÂN' },
-    password: { type: 'string', title: 'MÃ SỐ', format: 'password' },
-    gender: { type: 'string', title: 'GIỚI TÍNH', enum: ['Nam', 'Nữ', 'Khác'] },
+    username: { type: 'string', title: 'HỌ TÊN' },
+    password: { type: 'string', title: 'ID', format: 'password' },
+    gender: { type: 'string', title: 'GIỚI TÍNH', enum: ['Nam', 'Nữ'] },
+    weight: { type: 'number', title: 'CÂN NẶNG' },
     height: { type: 'number', title: 'CHIỀU CAO (cm)' },
-    weight: { type: 'number', title: 'CÂN NẶNG (kg)' },
-    medicalHistory: { type: 'string', title: 'TIỀN SỬ BỆNH', format: 'textarea' },
+    age: { type: 'number', title: 'TUỔI' },
+    phone: { type: 'number', title: 'SĐT' },
   },
 };
 
