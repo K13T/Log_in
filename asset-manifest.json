@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//k13t.github.io/Log_in/static/css/main.13d31ae5.css",
-    "main.js": "//k13t.github.io/Log_in/static/js/main.e581e6c8.js",
-    "static/media/ytenenjpg.jpg": "//k13t.github.io/Log_in/static/media/ytenenjpg.2f1c1a06ab4a7fa4998b.jpg",
-    "index.html": "//k13t.github.io/Log_in/index.html",
-    "main.13d31ae5.css.map": "//k13t.github.io/Log_in/static/css/main.13d31ae5.css.map",
-    "main.e581e6c8.js.map": "//k13t.github.io/Log_in/static/js/main.e581e6c8.js.map"
+    "main.css": "/Log_in/static/css/main.aa644d8b.css",
+    "main.js": "/Log_in/static/js/main.56f5056c.js",
+    "static/media/ytenenjpg.jpg": "/Log_in/static/media/ytenenjpg.2f1c1a06ab4a7fa4998b.jpg",
+    "index.html": "/Log_in/index.html",
+    "main.aa644d8b.css.map": "/Log_in/static/css/main.aa644d8b.css.map",
+    "main.56f5056c.js.map": "/Log_in/static/js/main.56f5056c.js.map"
   },
   "entrypoints": [
-    "static/css/main.13d31ae5.css",
-    "static/js/main.e581e6c8.js"
+    "static/css/main.aa644d8b.css",
+    "static/js/main.56f5056c.js"
   ]
 }
